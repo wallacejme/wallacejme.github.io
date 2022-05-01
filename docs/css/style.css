@@ -1,5 +1,19 @@
 body {
-    font-family: 'Source Code Pro', monospace;
-    font-weight: normal;
-    padding: 10%;
+    font-family: 'Inconsolata', Consolas, monospace;
+    color: #212121;
+}
+
+h1 {
+    font-weight: 300;
+}
+
+
+div#socialProfiles a {
+    text-decoration: none;
+    color: #212121;
+}
+
+div#socialProfiles a:hover {
+    font-weight: bold;
+    text-decoration: underline;
 }
