@@ -1,12 +1,13 @@
 body {
-    font-family: 'Inconsolata', Consolas, monospace;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: normal;
     color: #212121;
 }
 
-h1 {
-    font-weight: 300;
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Alegreya', serif;
+    font-weight: normal;
 }
-
 
 div#socialProfiles a {
     text-decoration: none;
@@ -20,7 +21,6 @@ div#socialProfiles a span {
 }
 
 div#socialProfiles a:hover span, div#socialProfiles a:focus span {
-    font-weight: bold;
-    color: #2979FF;
-    border-bottom-color: #2979FF;
+    color: #2962FF;
+    border-bottom-color: #2962FF;
 }
