@@ -1,0 +1,31 @@
+{
+  "name": "wallacejme.github.io",
+  "version": "1.0.0",
+  "description": "Wallace's personal Github Page",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wallacejme/wallacejme.github.io.git"
+  },
+  "keywords": [
+    "github-pages",
+    "gh-pages",
+    "blog",
+    "github-blogging"
+  ],
+  "author": "Wallace Medeiros <wallacejme@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wallacejme/wallacejme.github.io/issues"
+  },
+  "homepage": "https://github.com/wallacejme/wallacejme.github.io#readme",
+  "dependencies": {
+    "jquery": "^3.6.0"
+  }
+}
