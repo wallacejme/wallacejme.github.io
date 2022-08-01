@@ -16,7 +16,7 @@ const jsDest = `${destRoot}/js`;
 const imgDest = `${destRoot}/img`;
 
 
-function createFolderStructure(cb) {
+function createBaseStructure(cb) {
   folders = [destRoot, cssDest, jsDest, imgDest];
 
   folders.forEach(dir => {
@@ -58,19 +58,14 @@ function deployResources() {
 
 
 function clean() {
-  return del([`${destRoot}/**/*`, `!${destRoot}`]);
+  return del([`${destRoot}/**/*`, `!${destRoot}`, `!${destRoot}/CNAME`]);
 }
 
 
 function build(cb) {
-  series(createFolderStructure, parallel(deployCss, deployJs, deployResources, deployHtml))(cb);
+  series(createBaseStructure, parallel(deployCss, deployJs, deployResources, deployHtml))(cb);
 }
 
-exports.createFolderStructure = createFolderStructure;
-exports.deployCss = deployCss;
-exports.deployJs = deployJs;
-exports.deployHtml = deployHtml;
-exports.deployResources = deployResources;
-exports.clean = clean;
+
 exports.build = build;
 exports.default = series(clean, build);
