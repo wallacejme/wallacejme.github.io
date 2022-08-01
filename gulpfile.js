@@ -59,8 +59,6 @@ function deployResources() {
 
 function clean() {
   return del([`${destRoot}/**/*`, `!${destRoot}`]);
-  //, {read: false, allowEmpty: true})
-  //  .pipe(del());
 }
 
 
