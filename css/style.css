@@ -24,6 +24,10 @@ div#socialProfiles a span {
     display: inline-block;
 }
 
+div#socialProfiles a span i {
+    margin: 4px
+}
+
 div#socialProfiles a:hover span, div#socialProfiles a:focus span {
     color: #2962FF;
     border-bottom-color: #2962FF;
