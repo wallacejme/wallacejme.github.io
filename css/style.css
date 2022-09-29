@@ -9,8 +9,23 @@ h1,h2,h3,h4,h5,h6 {
     font-weight: normal;
 }
 
-h1#profileName {
+#profileName {
     font-style: italic;
+}
+
+#definitions * {
+    font-family: 'Alegreya Sans', sans-serif;
+}
+
+#definitions h4 {
+    font-weight: bold;
+}
+
+#definitions .badge {
+    font-size: 0.6em;
+    padding: 6px 7px;
+    margin-left: 5px;
+    line-height: 0.9em;
 }
 
 div#socialProfiles a {
