@@ -28,6 +28,10 @@ h1,h2,h3,h4,h5,h6 {
     line-height: 0.9em;
 }
 
+.definition-header {
+    font-size: 1.4em;
+}
+
 div#socialProfiles a {
     text-decoration: none;
     color: #212121;
