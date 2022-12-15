@@ -59,18 +59,34 @@
             </div>
         </div>
         
-        <div id="socialProfiles" class="d-flex flex-row flex-wrap align-items-center pt-5 px-l-5 mt-3">
-            <div class="col-2 d-none d-md-block px-5"></div>
-            <a href="https://medium.com/@wallacejme" class="col mx-2">
-                <span><i class="bi bi-pen d-block d-sm-inline-block"></i> Blog</span></a>
-            <a href="https://github.com/wallacejme" class="col mx-2">
+        <div id="socialProfiles" class="btn-group pt-5" role="group" aria-label="Social profile links">
+            <div class="btn-group" role="group">
+                <a href="#" class="btn btn-outline-dark dropdown-toggle" role="button" data-bs-toggle="dropdown" >
+                    <span><i class="bi bi-pen d-block d-sm-inline-block"></i> Blogs</span></a>
+                <ul class="dropdown-menu">
+                    <li>
+                        <a class="dropdown-item" href="/blog">
+                            <span>
+                                <i class="bi bi-code-slash"></i> Dev blog <span class="badge bg-secondary px-1 ms-1">en</span>
+                            </span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="dropdown-item" href="https://medium.com/@wallacejme">
+                            <span>
+                                <i class="bi bi-medium"></i>Medium <span class="badge bg-secondary px-1 ms-1">pt-BR</span>
+                            </span>
+                        </a>
+                    </li>
+                </ul>
+            </div>            
+            <a href="https://github.com/wallacejme" class="btn btn-outline-dark" role="button">
                 <span><i class="bi bi-github d-block d-sm-inline-block"></i> Github</span></a>
-            <a href="https://linkedin.com/in/wallacejme" class="col mx-2">
+            <a href="https://linkedin.com/in/wallacejme" class="btn btn-outline-dark" role="button">
                 <span><i class="bi bi-linkedin d-block d-sm-inline-block"></i> Linkedin</span></a>
-            <a href="https://twitter.com/wallacejme" class="col mx-2">
+            <a href="https://twitter.com/wallacejme" class="btn btn-outline-dark" role="button">
                 <span><i class="bi bi-twitter d-block d-sm-inline-block"></i> Twitter</span></a>
-            <div class="col-2 d-none d-md-block px-5"></div>
-        </div> 
+        </div>
     </div>
 
     <!-- bootstrap js bundle -->
